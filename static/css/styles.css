@@ -1,0 +1,64 @@
+:root {
+  --app-bg: #f6f8fb;
+  --app-surface: #ffffff;
+  --app-border: #dde3ea;
+  --app-text: #1f2937;
+  --app-muted: #5f6f82;
+  --app-primary: #2f5f78;
+}
+
+body {
+  background-color: var(--app-bg);
+  color: var(--app-text);
+  font-family: Inter, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.app-navbar {
+  background: rgba(255, 255, 255, 0.93);
+  border-bottom: 1px solid var(--app-border);
+  backdrop-filter: blur(8px);
+}
+
+.navbar-brand,
+.nav-link {
+  color: var(--app-text);
+}
+
+.nav-link:hover,
+.footer-link,
+.footer-link:hover {
+  color: var(--app-primary);
+}
+
+.hero-section {
+  background-color: var(--app-surface);
+  border: 1px solid var(--app-border);
+}
+
+.hero-kicker {
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: var(--app-muted);
+}
+
+.app-card {
+  background: var(--app-surface);
+  border: 1px solid var(--app-border);
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 12px rgba(31, 41, 55, 0.04);
+}
+
+.btn-primary {
+  background-color: var(--app-primary);
+  border-color: var(--app-primary);
+}
+
+.btn-primary:hover {
+  background-color: #264e62;
+  border-color: #264e62;
+}
+
+.app-footer {
+  background-color: var(--app-surface);
+}
