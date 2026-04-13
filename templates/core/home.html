@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% block title %}Home | Eudaimonia{% endblock %}
+{% block content %}
+<section class="hero-section p-4 p-md-5 mb-5 rounded-4">
+  <p class="hero-kicker mb-2">Sex-specific training and nutrition platform</p>
+  <h1 class="display-6 fw-semibold mb-3">Build stronger plans through structured, evidence-aware guidance.</h1>
+  <p class="lead text-secondary mb-4">This starter interface provides the foundation for future tools across training, nutrition, education, and personalized progress workflows.</p>
+  <div class="d-flex flex-wrap gap-2">
+    <a href="{% url 'workout_builder' %}" class="btn btn-primary">Explore Workout Builder</a>
+    <a href="{% url 'nutrition_builder' %}" class="btn btn-outline-secondary">View Nutrition Builder</a>
+  </div>
+</section>
+
+<section class="row g-4">
+  <div class="col-md-4">
+    <article class="card h-100 app-card">
+      <div class="card-body">
+        <h2 class="h5 card-title">Training Track</h2>
+        <p class="card-text">Placeholder structure for future workout generation, periodization logic, and progression views.</p>
+      </div>
+    </article>
+  </div>
+  <div class="col-md-4">
+    <article class="card h-100 app-card">
+      <div class="card-body">
+        <h2 class="h5 card-title">Nutrition Track</h2>
+        <p class="card-text">Prepared layout for future dietary planning modules, recommendations, and educational explanations.</p>
+      </div>
+    </article>
+  </div>
+  <div class="col-md-4">
+    <article class="card h-100 app-card">
+      <div class="card-body">
+        <h2 class="h5 card-title">Education Track</h2>
+        <p class="card-text">Article and learning section scaffolded to support topic collections and deeper content pages.</p>
+      </div>
+    </article>
+  </div>
+</section>
+{% endblock %}

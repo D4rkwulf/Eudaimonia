@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %}Articles | Eudaimonia{% endblock %}
+{% block content %}
+{% include 'partials/page_header.html' with title='Articles' subtitle='Placeholder listing view for educational content.' %}
+<div class="row g-4">
+  <div class="col-md-6 col-lg-4"><div class="card app-card"><div class="card-body"><h2 class="h6">Article Placeholder 1</h2><p class="mb-0">Topic teaser for future educational content.</p></div></div></div>
+  <div class="col-md-6 col-lg-4"><div class="card app-card"><div class="card-body"><h2 class="h6">Article Placeholder 2</h2><p class="mb-0">Topic teaser for future educational content.</p></div></div></div>
+  <div class="col-md-6 col-lg-4"><div class="card app-card"><div class="card-body"><h2 class="h6">Article Placeholder 3</h2><p class="mb-0">Topic teaser for future educational content.</p></div></div></div>
+</div>
+<div class="mt-4"><a href="{% url 'article_detail' %}" class="btn btn-outline-secondary">Open Placeholder Detail</a></div>
+{% endblock %}
