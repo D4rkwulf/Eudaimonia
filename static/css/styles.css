@@ -13,16 +13,6 @@ body {
   font-family: Inter, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
-.app-shell {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-.app-main {
-  flex: 1 0 auto;
-}
-
 .app-navbar {
   background: rgba(255, 255, 255, 0.93);
   border-bottom: 1px solid var(--app-border);
